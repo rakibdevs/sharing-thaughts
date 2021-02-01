@@ -1,0 +1,188 @@
+*{
+	font-family:'Kalpurush', Arial, sans-serif ;
+}
+body {
+    font-family: 'Kalpurush', Arial, sans-serif ;
+}
+[class*=sidebar-dark-] {
+    background-color: rgb(142,83,161);
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: rgb(140,198,63);
+    color: #fff;
+}
+[class*=sidebar-dark-] .sidebar a {
+    color: #ffffff;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link {
+    color: #efeff1;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #8e53a1; 
+}
+
+
+.hide, span.action-buttons, .topic-edit-area, .section-edit-area{
+	display: none;
+
+}
+span.action-buttons{
+    white-space: nowrap;
+}
+.nav-link:hover p span.action-buttons{
+	display: block;
+}
+.sidebar .form-control, .section-menu .form-control{
+    height: 30px;
+}
+.danger.form-control{
+    border: 1px solid #ff0000;
+}
+.topic-input i, .section-input i, .topic-add, .section-add, .page-add, .page-edit, i, .page-share-edit, .page-share{
+	cursor: pointer;
+}
+
+.topic-store, .topic-update, .section-store, .section-store{
+    height: 30px;
+    padding: 0 5px;
+}
+.section-menu .nav-pills .nav-link.active, .section-menu .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #8cc63f;
+    border-radius: 0;
+
+}
+.topic-edit-area span.p-1, .section-edit-area span.p-1 {
+    height: 30px;
+    background: #fff;
+    border-radius: 4px;
+    margin-left: 2px;
+    width: 70px;
+    text-align: center;
+}
+.page-menu .nav-pills .nav-link.active, .page-menu .nav-pills .show>.nav-link {
+    color: #060606;
+    background-color: #eefbde;
+    border-radius: 0;
+
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: rgb(140,198,63);
+    color: #fff;
+}
+.topic-edit{
+    color: #46ef00 !important;
+}
+.active .topic-edit, .active .section-edit{
+    color: #fff !important;
+}
+.topic-delete {
+    color: #a20303!important;
+}
+.section-menu, .page-menu {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    background: #fff;
+}
+.section-menu{
+    background: #eefbde;
+}
+.page-menu{
+    box-shadow: 2px 0 2px 1px #d4d1d1;
+}
+.page-anchor, .section-anchor{
+    width: 100%;
+    cursor: pointer;
+}
+.disabledarea {
+    pointer-events: none;
+    opacity: 0.4;
+}
+ul.section-nav, ul.page-nav {
+    
+    overflow-y: scroll;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.content-wrap-body{
+    height: calc(100vh - 60px);
+    position: relative;
+    display: flex;
+}
+.page-content{
+	/*width: calc(100% - 412px);
+	max-width: calc(100% - 412px);*/
+    width: 100%;
+    max-width: 100%;
+	display: inline-block;
+    height: 100%;
+}
+.section-menu .nav-sidebar>.nav-item {
+    width: 100%;
+    border-left: 5px solid;
+}
+.section-menu .nav-sidebar>.nav-item:nth-child(3n+1){
+    border-color:#8e53a1;
+}
+.section-menu .nav-sidebar>.nav-item:nth-child(3n+2){
+    border-color:#d1d1d1;
+}
+
+.section-menu .nav-sidebar>.nav-item:nth-child(3n+3){
+    border-color:#8cc63f;
+}
+.result-item {
+    background: #fff;
+    min-height: 220px;
+}
+.text-small{
+    font-size: 12px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #00050e !important;
+    border: 1px solid #080101 !important;
+}
+span.text-pending {
+    color: #ff440cd1;
+}
+
+.min-150 {
+    min-height: 100px;
+}
+.sidebar-mini .nav-sidebar, .sidebar-mini .nav-sidebar .nav-link, .sidebar-mini .nav-sidebar>.nav-header {
+    white-space: unset;
+    overflow: hidden;
+}
+
+.shared-item {
+    border: 1px solid #8e53a1;
+}
+
+li.hide-section, li.hide-page {
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: #9faf8b;
+}
+
+li.hide-page {
+    background: #c3d6ab;
+}
+.att{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.att-item .add-attatchment{
+    display: none;
+}
+.att-item:last-child .add-attatchment {
+    display: inline-block;
+}
