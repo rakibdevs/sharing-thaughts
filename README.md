@@ -2,10 +2,10 @@ Diary is a content sharing medium which enables a user to sharing their thoughts
 
 ## How to Install
 
-- git clonehttps://github.com/bestmomo/laravel5-example.gitprojectname
-- cd projectname
+- git clone https://github.com/rakibdevs/diary
+- cd diary
 - composer install
 - php artisan key:generate
 - Create a database and inform .env
-- php artisan migrate to create and      populate tables
-- php artisan serve to start the app on http://localhost:8000/# diary
+- php artisan migrate 
+- php artisan serve to start the app on http://localhost:8000/
